@@ -1,0 +1,449 @@
+
+/* 	--------------------------------------------------
+    The Origin Framework ™  - uSkinned.net
+
+	PALETTE
+    -------------------------------------------------- */
+
+
+/* 	--------------------------------------------------
+	TABLE OF CONTENTS
+    -------------------------------------------------- 
+
+	1.0 BACKGROUNDS
+	2.0 TEXT
+	3.0 BORDERS
+	4.0 BUTTONS
+	
+	
+	black		#1b1b1b
+	white 		#ffffff
+	grey 		#f4f4f4
+	red			#d04531   /tas bort
+	green 		#0A2B19		/ersätter röd
+	yellow		#f3ed50  /tas bort
+	dark yellow #c2912e	 /ny 
+	pale yellow	#fcfcf2
+	
+	
+*/
+
+
+
+/*	--------------------------------------------------
+	1.0 BACKGROUNDS
+	-------------------------------------------------- */
+	
+	body { 
+		background-color:#ffffff;
+		}
+	.resources .item,	
+	.accordion .pane, .tabbed .panes,
+	.accordion .tab a, .tabbed .tabs a,	
+	blockquote,
+	.alert_box,
+	.page_component .slick-prev, .page_component .slick-next,
+	.page_component.newsletter,
+	.navigation a.expand span,
+	.navigation a.expand_search:hover,
+	.navigation a.expand_search.active,
+	.promo_pods .item.newsletterpod,
+	table tbody tr.even td,
+	.author_bio,
+	.page_component.quick_links {
+		background-color:#f4f4f4;
+		}	
+	table thead tr th {
+		background-color:#dddddd;
+		}
+	.label,
+	body.home .promo_pods .item,
+	nav.sub,
+	.listing.grid .item {	
+		background-color:#0A2B19; 
+		}
+	fieldset div.general input.input-validation-error,
+	fieldset div.general select.input-validation-error,
+	fieldset div.general textarea.input-validation-error,
+	fieldset .error span.wrap input,
+	fieldset .error span.wrap select,
+	fieldset .error span.wrap textarea,
+	fieldset .error ul {	
+		background-color:#ffebeb;
+		}
+	nav.main li:hover,
+	nav.main li ul {
+		background-color:#f4f4f4;
+		}
+	nav.main a.active {
+		background-color:rgba(255,255,255,0.1);
+		}
+	footer,
+	header,
+	.navigation .reveal {
+		background-color:#1b1b1b;
+		}	
+	footer .bottom {
+		background-color:rgba(255,255,255,0.05);
+		}	
+	.pricing_menu dl { 	
+		background-color:#fcfcf2;
+		}
+	
+	/* ALERTS */		
+	.alert_box.green {
+		background-color:#7FAE00;
+		}
+	.alert_box.amber {
+		background-color:#ecce56;
+		}
+	.alert_box.red,
+	fieldset div.general span.field-validation-error,
+	fieldset .error span.req {
+		background-color:#e72020;
+		}
+		
+	.ajax_wrap .ajax_loading {
+		background-color:rgba(255,255,255,0.8);
+		}
+	.ajax_wrap .ajax_loading .loading span.message {
+		background-image:url('/images/icons/loading_on_white.gif');
+		}
+	nav.sub a.active {
+		background-color:rgba(255,255,255,0.2);
+		}	
+	nav.sub ul ul a {
+		background-color:rgba(255,255,255,0.1);
+		}	
+		
+	body.home header,
+	.slideshow .text,
+	.image .text  {
+		background-color:rgba(27,27,27,0.6);
+		}
+	.listing.grid .item a:hover .info,
+	body.home .promo_pods .item a:hover .info {
+		background-color:rgba(10,43,25,0.8);
+		}
+	.content .overlay {
+		background-color:rgba(27,27,27,0.05);
+		}
+	.banner .slides .slick-prev,
+	.banner .slides .slick-next,
+	.content.promo_strip .overlay {
+		background-color:rgba(27,27,27,0.3);
+		}
+	.accordion .tab a:hover span,
+	.tabbed nav ul li a:hover span,
+	nav.sub p.heading {
+		background-color:rgba(27,27,27,0.1);
+		}
+	nav.main ul ul ul li,
+	nav.main ul ul li:hover,	
+	.pricing_menu dl .header {
+		background-color:rgba(27,27,27,0.05);
+		}
+		
+	nav.sub a:hover {
+		background-color:rgba(27,27,27,0.15);
+		}		
+		
+			
+	@media (min-width:1024px) {	
+		
+	header .site_search .search_reveal {
+		background-color:#f4f4f4;
+		}
+				
+	body.home header:hover {
+		background-color:rgba(27,27,27,1);
+		}
+		
+	}
+			
+	@media (min-width:768px) {
+	}
+			
+	@media (min-width:768px) and (max-width:1023px) {
+	}
+			
+	@media (max-width:1023px) {
+		
+	body.home header {
+		background-color:rgba(27,27,27,1);
+		}
+	
+	}	
+		
+		
+	@media (max-width:767px) {		
+	}	
+	
+	@media (min-width:480px) and (max-width:767px) {
+	}
+
+
+
+/*	--------------------------------------------------
+	2.0 TEXT
+	-------------------------------------------------- */
+
+	body {
+		color:#625c5a;
+		}
+	nav.main ul ul a.active,
+	.promo_pods .item.videopod a,	
+	.promo_pods .item a.see_all,
+	.listing .item .text a,
+	.promo_pods .item .text a,
+	.listing .item .meta a,
+	a,	
+	.highlight,
+	a h1, a h2, a h3, a h4, a h5, a h6, a .heading,
+	.slick-prev, .slick-next {
+		color:#0A2B19; 
+		}
+	a:link { 
+		-webkit-tap-highlight-color: #0A2B19; 
+		}	
+	.label,
+	.alert_box.green,
+	.alert_box.amber,
+	.alert_box.red,
+	fieldset div.general span.field-validation-error,
+	fieldset .error span.req,
+	.slideshow .text,
+	.image .text,
+	nav.main a,
+	.listing.grid .item a,
+	.listing.grid .item a p.heading,
+	body.home .promo_pods .item a,
+	body.home .promo_pods .item a p.heading,
+	footer p,
+	nav.sub a,
+	nav.sub p.heading,
+	.banner .slides .slick-prev,
+	.banner .slides .slick-next,
+	.navigation a.expand_search {
+		color:#ffffff;
+		}
+	h1, h2, h3, h4, h5, h6, .heading,
+	thead,
+	abbr, acronym,
+	.alert_box a.close,
+	nav.main li:hover a,
+	.listing .item a,
+	.listing .item a p.heading,
+	.promo_pods .item a,
+	.promo_pods .item p.heading a,
+	.promo_pods .item a p.heading,
+	.pricing_menu dl dd.price p,
+	.accordion .tab a.active,
+	.tabbed nav ul li a.active,
+	.navigation a.expand_search:hover,
+	.navigation a.expand_search.active {
+		color:#191919; 
+		}
+	footer .heading {
+		color:#c2912e;
+		}	
+	.subheading,
+	blockquote, 
+	fieldset div.general input,
+	fieldset div.general select,
+	fieldset div.general textarea { 
+		color: #777777; 
+		}
+	fieldset span.note,
+	nav.footer ul li a {
+		color:#999999;
+		}
+	fieldset label em.req {
+		color:#ff0000;
+		}
+			
+	@media (min-width:1024px) {
+	}
+			
+	@media (min-width:768px) {
+	}
+			
+	@media (min-width:768px) and (max-width:1023px) {
+	}
+		
+	@media (max-width:767px) {		
+	}	
+	
+	@media (min-width:480px) and (max-width:767px) {
+	}
+	
+	
+
+/*	--------------------------------------------------
+	3.0 BORDERS
+	-------------------------------------------------- */
+
+	.borders,
+	.alert_box,
+	hr,
+	blockquote,
+	abbr, acronym,
+	.promo_pods .item.lists .listing,
+	table,
+	.author_bio,
+	.page_component.newsletter .newsletter,
+	.page_component.quick_links {
+		border-color:#dddddd;
+		}	
+	fieldset .general input,
+	fieldset .general select,
+	fieldset .general textarea {
+		border-color:#cccccc;
+		}
+	fieldset .general input:focus,
+	fieldset .general select:focus,
+	fieldset .general textarea:focus,
+	blockquote,
+	nav.pagination ul li a:hover span {
+		border-color:#0A2B19;
+		}
+	fieldset div.general input.input-validation-error,
+	fieldset div.general select.input-validation-error,
+	fieldset div.general textarea.input-validation-error,
+	fieldset .error span.wrap input,
+	fieldset .error span.wrap select,
+	fieldset .error span.wrap textarea,
+	fieldset .error ul {	
+		border-color:#ff0000;
+		}
+	
+	nav.sub ul li a	 {	
+		border-color:rgba(255,255,255,0.1);
+		}
+	.pricing_menu dl,
+	.pricing_menu dl dt,
+	.pricing_menu dl dd,
+	div.meta,
+	nav.pagination ul li span {
+		border-color:rgba(27,27,27,0.1);
+		}
+		
+	
+	/* ALERTS */		
+	.alert_box.green {
+		border-color:#7FAE00;
+		}
+	.alert_box.amber {
+		border-color:#ecce56;
+		}
+	.alert_box.red {
+		border-color:#e72020;
+		}
+			
+	@media (min-width:1024px) {
+	}
+			
+	@media (min-width:768px) {
+	}
+			
+	@media (min-width:768px) and (max-width:1023px) {
+	}
+		
+	@media (max-width:767px) {		
+	}	
+	
+	@media (min-width:480px) and (max-width:767px) {
+	}
+	
+	
+
+/*	--------------------------------------------------
+	4.0 BUTTONS
+	-------------------------------------------------- */
+	
+	span.button a,
+	button.button {
+		background-color: #c2912e;
+		border-color:#c2912e;
+		}
+	span.button.green a,
+	button.button.green {
+		background-color:#7FAE00;
+		border-color:#7FAE00;
+		}
+	span.button.amber a,
+	button.button.amber {
+		background-color:#F68B01;
+		border-color:#F68B01;
+		}
+	span.button.red a,
+	button.button.red {
+		background-color:#C00000;
+		border-color:#C00000;
+		}
+	span.button.grey a,
+	button.button.grey {
+		background-color:#999;
+		border-color:#999;
+		}
+	span.button.black a,
+	button.button.black {
+		background-color:#c2912e;
+		border-color:#1b1b1b;
+		}
+		
+	span.button a:hover,
+	button.button:hover {
+		background-color:#c2912e;
+		color:#1b1b1b;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+		}
+	
+	/* BORDER BUTTONS */	
+	span.button.borders a,
+	button.button.borders {
+		background:#c2912e;
+		color:#fff;
+		}
+	.banner span.button.borders a {
+		color:#fff;
+		}
+	span.button.borders a:hover,
+	button.button.borders:hover {
+		background-color:#c2912e;
+		color:#1b1b1b;
+		}
+		
+	span.button.borders.yellow a,
+	button.button.border.yellow {
+		border-color:#c2912e;
+		color:#fff;
+		}
+	span.button.borders.yellow a:hover,
+	button.button.borders.yellow:hover {
+		background-color:#c2912e;
+		color:#000;
+		}
+			
+	@media (min-width:1024px) {
+	}
+			
+	@media (min-width:768px) {
+	}
+			
+	@media (min-width:768px) and (max-width:1023px) {
+	}
+		
+	@media (max-width:767px) {		
+	}	
+	
+	@media (min-width:480px) and (max-width:767px) {
+	}
+
+
+
+/*	--------------------------------------------------
+	END
+	-------------------------------------------------- */
+	
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
