@@ -243,6 +243,10 @@ button:focus {
     /* opacity: 0.5; */
 }
 
+.welcome-to-us-text .regards {
+    font-weight: 900;
+}
+
 .welcome-to-us-text span {
     color: #8e9b8c;
     font-size: 2rem;
@@ -468,6 +472,17 @@ button:focus {
     margin-bottom: 24px;
 }
 
+.program-container ol li:before {
+    content: "";
+    position: absolute;
+    left: -37px;
+    width: 8px;
+    height: 8px;
+    top: 12px;
+    border: 4px solid #8e9b8c;
+    border-radius: 8px;
+}
+
 .program-container ol li .ivy-leaf {
     top: -1px;
     left: -42px;
@@ -561,7 +576,8 @@ button:focus {
 }
 
 .osa-container form input,
-.osa-container form textarea {
+.osa-container form textarea,
+.osa-container form select {
     padding: 0.5rem;
     border-radius: 4px;
     border: solid #979797 1px;

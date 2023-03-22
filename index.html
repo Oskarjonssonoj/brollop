@@ -93,7 +93,12 @@
                 <h2><u>Välkomna</u> till vårt bröllop<span>.</span></h2>
                 <p>Vi ser verkligen fram emot vår stora dag och att fira den tillsammans med er. På den här sidan har vi samlat information som kan vara bra att veta inför bröllopet. Här hittar ni även programmet för dagen samt möjligheten att OSA.</p>
 
-                <p>Vigseln kommer hållas 15.00 i Jonsereds Kyrka för att sedan bäras vidare till Lekhuset, Nääs Slott. Vi erbjuder transport mellan kyrka och festlokal. Glöm inte att meddela detta under OSA. Där kommer både middag och fest hållas under kvällen.</p>`
+                <p>Vigseln kommer hållas 15.00 i Jonsereds Kyrka för att sedan bäras vidare till Lekhuset, Nääs Slott. Vi erbjuder transport mellan kyrka och festlokal. Glöm inte att meddela detta under OSA. Där kommer både middag och fest hållas under kvällen.</p>
+                
+                <p class="last-row">
+                    <div class="regards">Vänliga hälsningar</div>
+                    <div>Mie & Oskar</div>
+                </p>
             </div>
             <div class="welcome-image-container"></div>
         </div> 
@@ -127,7 +132,6 @@
                             <img src="/images/wedding-rings.png"/>
                         </div>
                         <li>
-                            <img src="/images/ivy-leaf.png" alt="leaf" class="ivy-leaf">
                             <div class="event">
                                 <p>15:00</p>
                                 <p>Vigsel</p>
@@ -140,12 +144,11 @@
                             <img src="/images/champagne-glass.png"/>
                         </div>
                         <li>
-                            <img src="/images/ivy-leaf.png" alt="leaf" class="ivy-leaf">
                             <div class="event">
                                 <p>16:15</p>
                                 <p>Ankomst - Mingel</p>
                             </div>
-                            <p class="adress">Lekhuset, Nääs allé 8, 448 92 Floda</p>
+                            <p class="adress">Otto Salomons väg, 448 92 Floda</p>
                         </li>
                     </div>
                     <div class="each-event-container">
@@ -153,7 +156,6 @@
                             <img src="/images/dish.png"/>
                         </div>
                         <li>
-                            <img src="/images/ivy-leaf.png" alt="leaf" class="ivy-leaf">
                             <div class="event">
                                 <p>17:00</p>
                                 <p>Middag</p>
@@ -162,10 +164,9 @@
                     </div>
                     <div class="each-event-container">
                         <div class="icon-container">
-                            <img src="/images/dance.png"/>
+                            <img src="/images/disco-ball.png"/>
                         </div>
                         <li>
-                            <img src="/images/ivy-leaf.png" alt="leaf" class="ivy-leaf">
                             <div class="event">
                                 <p>22:00</p>
                                 <p>Fest</p>
@@ -215,10 +216,14 @@
                     <input type="number" name="amount" value="1" required min="1" max="10">
                     <label for="name">Namn*</label>
                     <input type="namn" name="name" required>
-                    <span class="desc">* Skriv namn på alla deltagande om du valde fler än en person. Separera med kommatecken.</span>
-                    <label for="song">Favoritlåt* (festlig)</label>
+                    <span class="desc">* Skriv namn på alla deltagande om du valde fler än en person.</span>
+                    <label for="song">Favoritlåt (festlig)</label>
                     <input type="favoritesong" name="song" required>
-                    <span class="desc">* Skriv namn på din favoritlåt eller era favoritlåtar om du valde fler än en person. Separera med kommatecken.</span>
+                    <label for="song">Transport från kyrka till Lekhuset?</label>
+                    <select name="transit">
+                        <option value="no">Nej</option>
+                        <option value="yes">Ja</option>
+                    </select>
                     <label for="email">Email</label>                    
                     <input type="email" name="email" required>
                     <label for="message">Meddelande (Allergier, preferenser osv.)</label>
