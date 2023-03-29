@@ -59,7 +59,7 @@ button:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #42864ad4;
+    color: #8e9b8c;
     transition-duration: 0.6s;
 }
 
@@ -336,6 +336,72 @@ button:focus {
     }
 }
 
+/* JONSERED */
+
+.container-jonsered {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.jonsered-image-container,
+.jonsered-text {
+    width: 100%;
+}
+
+.jonsered-image-container {
+    min-height: 450px;
+    background-size: cover;
+    filter: sepia(30%) grayscale(15%);
+    background-position: center;
+    background-image: url(images/jonsered.jpeg);
+}
+
+.jonsered-text {
+    display: flex;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    line-height: 1.5rem;    
+    flex-direction: column;
+    justify-content: center;
+    /* border-top: 1px solid #d0d0d0; */
+    background-color: #8e9b8c;
+    color: white;
+}
+
+.jonsered-text h2 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.jonsered-text u {
+    text-decoration: none;
+    border-bottom: 4px solid #ffffff61;
+    padding-bottom: 0.2rem;
+}
+
+.jonsered-text span {
+    color: #ffffff61;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 800px) {
+    .container-jonsered {
+        flex-direction: row;
+    }
+
+    .jonsered-image-container,
+    .jonsered-text {
+        width: 50%;
+        min-height: 500px;
+    }
+
+    .jonsered-text {
+        width: 50%;
+    }
+}
+
 /* NÄÄS */
 
 .container-naas {
@@ -356,6 +422,18 @@ button:focus {
     filter: sepia(30%) grayscale(15%);
     background-position: center left;
     background-image: url(images/naas-two.jpeg);
+    position: relative;
+}
+
+.naas-image-container::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    border: red solid 3px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 90px;
+    left: 24px;
 }
 
 .naas-text {
@@ -365,9 +443,7 @@ button:focus {
     line-height: 1.5rem;    
     flex-direction: column;
     justify-content: center;
-    border-top: 1px solid #d0d0d0;
-    background-color: #8e9b8c;
-    color: white;
+    border-bottom: 1px solid #d0d0d0;
 }
 
 .naas-text h2 {
@@ -377,13 +453,13 @@ button:focus {
 
 .naas-text u {
     text-decoration: none;
-    border-bottom: 4px solid #ffffff61;
+    border-bottom: 4px solid #8e9b8c;
     padding-bottom: 0.2rem;
     /* opacity: 0.5; */
 }
 
 .naas-text span {
-    color: #ffffff61;
+    color: #8e9b8c;
     font-size: 2rem;
 }
 
@@ -396,6 +472,11 @@ button:focus {
     .naas-text {
         width: 50%;
         min-height: 500px;
+    }
+
+    .naas-image-container::after {
+        bottom: 105px;
+        left: 30px;
     }
 
     .naas-text {
@@ -437,7 +518,7 @@ button:focus {
 }
 
 .program-container .program-header {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 2rem 2rem 4rem 2rem;
 }
 
