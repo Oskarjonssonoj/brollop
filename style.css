@@ -133,7 +133,7 @@ button:focus {
 
 .top-left-container h1 span {
     color: #42864ad4;
-    font-size: 3rem;
+    /* font-size: 3rem; */
 }
 
 .top-left-container .married {
