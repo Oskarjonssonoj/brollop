@@ -485,6 +485,78 @@ button:focus {
     }
 }
 
+/* BOENDE */
+
+.container-boende {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.boende-image-container,
+.boende-text {
+    width: 100%;
+}
+
+.boende-image-container {
+    min-height: 450px;
+    background-size: cover;
+    filter: sepia(30%) grayscale(15%);
+    background-position: center left;
+    background-image: url(images/boende.jpeg);
+    position: relative;
+}
+
+.boende-text {
+    display: flex;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    line-height: 1.5rem;    
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8e9b8c;
+    color: #fff;
+}
+
+.boende-text h2 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.boende-text u {
+    text-decoration: none;
+    border-bottom: 4px solid #ffffff61;
+    padding-bottom: 0.2rem;
+    /* opacity: 0.5; */
+}
+
+.boende-text span {
+    color: #ffffff61;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 800px) {
+    .container-boende {
+        flex-direction: row;
+    }
+
+    .boende-image-container,
+    .boende-text {
+        width: 50%;
+        min-height: 500px;
+    }
+
+    .boende-image-container::after {
+        bottom: 105px;
+        left: 30px;
+    }
+
+    .boende-text {
+        width: 50%;
+    }
+}
+
 /* PROGRAM */
 
 .program-container {
@@ -611,8 +683,8 @@ button:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #8e9b8c;
-    color: white;
+    /* background-color: #8e9b8c;
+    color: white; */
 }
 
 .osa-container .osa-form-container {
@@ -636,7 +708,8 @@ button:focus {
 }
 
 .osa-container .osa-form-container h2 span {
-    color: #d0d0d0;
+    /* color: #d0d0d0; */
+    color: #8e9b8c;
     font-size: 3rem;
     margin: 0 0.25rem;
 }
@@ -658,6 +731,40 @@ button:focus {
 .osa-container form label {
     margin-top: 1.5rem;
 }
+
+input[type="checkbox"] {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: red;
+    outline: none;
+    border-radius: 2rem !important;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 50%);
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: translateX(100%);
+    background: #fff;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: #00ed64;
+  }
 
 .osa-container form input,
 .osa-container form textarea,
