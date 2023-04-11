@@ -524,6 +524,11 @@ button:focus {
     margin-bottom: 2rem;
 }
 
+.boende-text a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .boende-text u {
     text-decoration: none;
     border-bottom: 4px solid #ffffff61;
