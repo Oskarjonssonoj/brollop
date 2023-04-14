@@ -526,7 +526,12 @@ button:focus {
 
 .boende-text a {
     color: #fff;
+    transition: 250ms;
     text-decoration: underline;
+}
+
+.boende-text a:hover {
+    opacity: 0.6;
 }
 
 .boende-text u {
