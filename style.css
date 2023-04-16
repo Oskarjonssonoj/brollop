@@ -225,7 +225,7 @@ button:focus {
 .welcome-to-us-text {
     display: flex;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 2rem;
     line-height: 1.5rem;    
     flex-direction: column;
     justify-content: center;
@@ -295,7 +295,7 @@ button:focus {
 .toastmasters-text {
     display: flex;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 2rem;
     line-height: 1.5rem;    
     flex-direction: column;
     justify-content: center;
@@ -362,7 +362,7 @@ button:focus {
 .jonsered-text {
     display: flex;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 2rem;
     line-height: 1.5rem;    
     flex-direction: column;
     justify-content: center;
@@ -440,7 +440,7 @@ button:focus {
 .naas-text {
     display: flex;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 2rem;
     line-height: 1.5rem;    
     flex-direction: column;
     justify-content: center;
@@ -511,7 +511,7 @@ button:focus {
 .boende-text {
     display: flex;
     text-align: center;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 2rem;
     line-height: 1.5rem;    
     flex-direction: column;
     justify-content: center;
