@@ -794,7 +794,11 @@ button:focus {
 .osa-container .osa-form-container h2 {
     text-align: center;
     font-size: 2rem;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 2rem 0.5rem 2rem;
+}
+
+.osa-container .osa-form-container .osa-date {
+    margin-bottom: 2rem;
 }
 
 .osa-container .osa-form-container h2 span {
